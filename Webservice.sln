@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webservice", "Webservice\Webservice.csproj", "{5B66478F-0CC1-4FDE-802B-EF6560E5B35B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{96B668E5-EF61-4A3A-9400-8010F7E9B911}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B66478F-0CC1-4FDE-802B-EF6560E5B35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B66478F-0CC1-4FDE-802B-EF6560E5B35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B66478F-0CC1-4FDE-802B-EF6560E5B35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B66478F-0CC1-4FDE-802B-EF6560E5B35B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F99A4EE2-8F71-4C4C-88EB-910CC432BB0D}
+	EndGlobalSection
+EndGlobal
